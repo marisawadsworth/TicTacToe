@@ -14,16 +14,20 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Media;
 using Windows.UI;
+using Windows.Media.SpeechSynthesis;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace TikTacToe
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    /// 
     public sealed partial class MainPage : Page
     {
+        // Provides access to the speech synthesis engine (voice) for Text-to-speech 
+        SpeechSynthesizer reader;
+
         #region Private Members
 
         /// <summary>
@@ -52,6 +56,12 @@ namespace TikTacToe
             this.InitializeComponent();
 
             NewGame();
+
+
+            //Speech
+            this.InitializeComponent();
+            // Configure the audio output.
+            reader = new SpeechSynthesizer();
         }
 
         #endregion
@@ -274,5 +284,6 @@ namespace TikTacToe
             }
             #endregion
         }
+
     }
 }

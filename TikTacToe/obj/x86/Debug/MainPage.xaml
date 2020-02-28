@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Height="500" Width="500"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontWeight="Bold" FontFamily="Bookman Old Style">
 
     <Page.Resources>
         <Style TargetType="Button">
@@ -18,10 +18,14 @@
             <Setter Property="VerticalAlignment" Value="Stretch"/>
             <Setter Property="FontSize" Value="70"/>
             <Setter Property="Foreground" Value="Black"/>
-
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="35"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Center"/>
         </Style>
     </Page.Resources>
-    
+
     <Grid x:ConnectionId='2' x:Name="Container">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -47,8 +51,8 @@
         <Button x:ConnectionId='10' x:Name="Button1_2" Grid.Column="1" Grid.Row="2"                     />
         <Button x:ConnectionId='11' x:Name="Button2_2" Grid.Column="2" Grid.Row="2"                     />
 
-        
+
     </Grid>
-   
+
 </Page>
 

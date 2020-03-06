@@ -44,5 +44,17 @@ namespace TikTacToe
         {
             this.Frame.Navigate(typeof(Class));
         }
+
+        private async void Debug_Click(object sender, RoutedEventArgs e)
+        {
+            DebugUtils.MessageBox("Message");
+
+            int test = await DebugUtils.MessageBox("Message", "Title");
+        }
+
+        private void Button_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            int a = 20;
+        }
     }
 }

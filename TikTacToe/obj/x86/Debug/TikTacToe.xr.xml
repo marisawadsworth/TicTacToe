@@ -18,6 +18,7 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Background" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
       <RootMethod Name="GetColumnSpan" />
@@ -45,7 +46,11 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
+      <RootEvent Name="PointerEntered" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="FontSize" />
@@ -78,7 +83,10 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="FontSize" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush" />
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+      <RootProperty Name="Opacity" />
+    </RootType>
     <RootType FullName="TikTacToe.Class" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="TextAlignment" />

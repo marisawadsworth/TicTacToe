@@ -15,9 +15,10 @@ using Windows.UI.Xaml.Navigation;
 using Windows.Media;
 using Windows.UI;
 using Windows.Media.SpeechSynthesis;
-
+using System.Diagnostics;
 
 namespace TikTacToe
+
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -25,8 +26,8 @@ namespace TikTacToe
     /// 
     public sealed partial class MainPage : Page
     {
-        // Provides access to the speech synthesis engine (voice) for Text-to-speech 
-        SpeechSynthesizer reader;
+            // Provides access to the speech synthesis engine (voice) for Text-to-speech 
+            SpeechSynthesizer reader;
 
         #region Private Members
 
@@ -56,7 +57,6 @@ namespace TikTacToe
             this.InitializeComponent();
 
             NewGame();
-
 
             //Speech
             this.InitializeComponent();

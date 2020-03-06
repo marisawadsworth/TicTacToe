@@ -31,6 +31,9 @@
     </Page.Resources>
 
     <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/sea.gif" Opacity="0.5"/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
@@ -46,6 +49,8 @@
         <Button x:ConnectionId='2' Content="Play!" Grid.Column="0" Grid.Row="1"                           />
         <Button x:ConnectionId='3' Content="Rules" Grid.Column="0" Grid.Row="2"                            />
         <Button x:ConnectionId='4' Content="Classes" Grid.Column="0" Grid.Row="3"                              />
+        <Button x:ConnectionId='5' x:Name="Debug" Content="Debug" HorizontalAlignment="Left" Margin="473,93,0,0" Grid.Row="3" VerticalAlignment="Top"                    />
+        <Button x:ConnectionId='6' Content="Button" HorizontalAlignment="Left" Margin="-8,67,0,0" Grid.Row="3" VerticalAlignment="Top"                                       />
 
     </Grid>
 </Page>

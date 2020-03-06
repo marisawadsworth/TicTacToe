@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Media.SpeechSynthesis;
 
+
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace TikTacToe
@@ -30,6 +31,8 @@ namespace TikTacToe
             this.InitializeComponent();
             // Configure the audio output.
             reader = new SpeechSynthesizer();
+
+           
         }
 
         private void Button_Click_Speak(object sender, RoutedEventArgs e)

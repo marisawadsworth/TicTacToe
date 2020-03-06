@@ -56,3 +56,4 @@ C:\Users\10002444\source\repos\TikTacToe\TikTacToe\obj\x86\Debug\Class.g.i.cs
 C:\Users\10002444\source\repos\TikTacToe\TikTacToe\obj\x86\Debug\Class.g.cs
 C:\Users\10002444\source\repos\TikTacToe\TikTacToe\obj\x86\Debug\Class.xaml
 C:\Users\10002444\source\repos\TikTacToe\TikTacToe\obj\x86\Debug\Class.xbf
+C:\Users\10002444\source\repos\TikTacToe\TikTacToe\obj\x86\Debug\TikTacToe.csprojAssemblyReference.cache

@@ -34,6 +34,15 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Background.gif">
+      <PackagePath>Assets\Background.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Background2.gif">
+      <PackagePath>Assets\Background2.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\sea.gif">
+      <PackagePath>Assets\sea.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Class Screenshot.png">
       <PackagePath>Assets\Class Screenshot.png</PackagePath>
     </AppxPackagedFile>
@@ -63,9 +72,6 @@
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\sea.gif">
-      <PackagePath>Assets\sea.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -54,7 +55,31 @@ namespace TikTacToe
 
         private void Button_PointerEntered(object sender, PointerRoutedEventArgs e)
         {
-            int a = 20;
+            //SolidColorBrush Background = new SolidColorBrush(Colors.Red);
+            //play.Background = new SolidColorBrush(Colors.Red); 
+
+            //rules.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(58, 58, 58, 0));
+            //classes.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(58, 58, 58, 0));
+        }
+
+        private void Button_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+        //    //SolidColorBrush Background = new SolidColorBrush(Colors.Red);
+        //    //play.Background = Background;
+
+        //    //play.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(58, 58, 58, 15));
+        //    //rules.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(58, 58, 58, 15));
+        //    //classes.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(58, 58, 58, 15));]
+        }
+
+        private void button_PointerEntered_1(object sender, PointerRoutedEventArgs e)
+        {
+            button.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(20, 200, 70, 55));
+        }
+
+        private void button_PointerExited_1(object sender, PointerRoutedEventArgs e)
+        {
+            button.Background = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 12, 120, 50));
         }
     }
 }

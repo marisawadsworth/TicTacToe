@@ -32,7 +32,6 @@ namespace TikTacToe
             // Configure the audio output.
             reader = new SpeechSynthesizer();
 
-           
         }
 
         private void Button_Click_Speak(object sender, RoutedEventArgs e)

@@ -50,8 +50,6 @@
         <Button x:Name="Button0_2" Grid.Column="0" Grid.Row="2" Click="Button_Click"/>
         <Button x:Name="Button1_2" Grid.Column="1" Grid.Row="2" Click="Button_Click"/>
         <Button x:Name="Button2_2" Grid.Column="2" Grid.Row="2" Click="Button_Click"/>
-
-
     </Grid>
 
 </Page>

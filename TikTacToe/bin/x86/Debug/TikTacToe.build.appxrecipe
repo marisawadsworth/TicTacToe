@@ -40,11 +40,20 @@
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Background2.gif">
       <PackagePath>Assets\Background2.gif</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Blue Background.gif">
+      <PackagePath>Assets\Blue Background.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\sea.gif">
       <PackagePath>Assets\sea.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Class Screenshot.png">
       <PackagePath>Assets\Class Screenshot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\TicTacToe Logo 2.png">
+      <PackagePath>Assets\TicTacToe Logo 2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\TicTacToe Logo.png">
+      <PackagePath>Assets\TicTacToe Logo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

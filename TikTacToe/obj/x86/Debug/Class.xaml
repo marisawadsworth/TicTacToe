@@ -30,7 +30,7 @@
         </Style>
     </Page.Resources>
 
-    <Grid>
+    <Grid Background="{ThemeResource ContentDialogBorderThemeBrush}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -42,15 +42,45 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Text="My Class Used" />
-        <Image Source="/Assets/Class Screenshot.png" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="-66,0,66,1" >
+        <TextBlock Grid.Column="0" Grid.ColumnSpan="2" 
+                   Foreground="White"
+                   Text="My Class Used" 
+                   FontFamily="Franklin Gothic Heavy" 
+                   VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" Margin="0,6,0,0" />
+        <Image Source="/Assets/Class Screenshot.png" Grid.ColumnSpan="2" Grid.RowSpan="3" Margin="28,123,26,111" >
             <Image.FocusVisualPrimaryBrush>
                 <ImageBrush/>
             </Image.FocusVisualPrimaryBrush>
         </Image>
-        <TextBlock Margin="12,128,13,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="40" FontSize="15" TextAlignment="Center" Grid.RowSpan="2" ><Run Text="MarkType.cs - This class has the types of values a cell has in the game. "/><Span FontFamily="Consolas" Foreground="Green" FontSize="12.6666666666667"/></TextBlock>
-        <Button x:ConnectionId='2' Content="Back" Grid.Row="2" Grid.Column="1"                          />
-        
+        <TextBlock Margin="19,89,6,0" TextWrapping="Wrap" 
+                   VerticalAlignment="Top" 
+                   Grid.ColumnSpan="2" Height="40" 
+                   FontSize="15" Foreground="White" 
+                   TextAlignment="Center" FontWeight="Normal">
+                   <Run Text="MarkType.cs - This class has the types of values a cell has in the game. "/><Span FontFamily="Consolas" Foreground="Green" FontSize="12.6666666666667"/></TextBlock>
+
+        <Button x:ConnectionId='2' Content="Back" Grid.Row="2" 
+                Grid.Column="1"                           
+                Margin="31,71,9,9"
+                Background="#2590FF" BorderBrush="#FFA3EAF5"
+                Foreground="White">
+
+            <Button.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Dark">
+                            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Black"/>
+                            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#58AAFF"/>
+                        </ResourceDictionary>
+                        <ResourceDictionary x:Key="Light">
+                            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Black"/>
+                            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#58AAFF"/>
+                        </ResourceDictionary>
+                    </ResourceDictionary.ThemeDictionaries>
+                </ResourceDictionary>
+            </Button.Resources>
+        </Button>
+
     </Grid>
 </Page>
 

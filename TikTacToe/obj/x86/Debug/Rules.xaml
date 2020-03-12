@@ -30,7 +30,7 @@
         </Style>
     </Page.Resources>
 
-    <Grid >
+    <Grid Background="{ThemeResource ContentDialogBorderThemeBrush}" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -42,10 +42,56 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Text="How to Play" />
-        <TextBlock x:ConnectionId='2' x:Name="Speak_Block" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" FontSize="18" TextAlignment="Left" VerticalAlignment="Stretch" Margin="10,0,10,10" ><Run Text="-The game is played on a grid that's 3 squares by"/><LineBreak/><Run Text=" 3 squares."/><LineBreak/><Run Text="- You are X (Crosses), and your friend is O (Noughts)."/><LineBreak/><Run Text="- The first player to get 3 of there marks in a row "/><LineBreak/><Run Text="(up, down, across, or diagonally) is the winner."/><LineBreak/><Run Text="- When all 9 squares are full, the game is over."/></TextBlock>
-        <Button x:ConnectionId='3' Content="Speak" Grid.Row="2" Grid.Column="0"                           />
-        <Button x:ConnectionId='4' Content="Back" Grid.Row="2" Grid.Column="1"                           />
+        <TextBlock Grid.Column="0" Grid.ColumnSpan="2" Foreground="White" Text="How to Play" FontFamily="Franklin Gothic Heavy" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock x:ConnectionId='2' x:Name="Speak_Block" Foreground="White" Grid.Column="0" 
+                   Grid.Row="1" Grid.ColumnSpan="2" 
+                   FontSize="18" TextAlignment="Left" 
+                   VerticalAlignment="Stretch" 
+                   Margin="21,0,-1,10" >
+                   <Run Text="-The game is played on a grid that's 3 squares by"/><LineBreak/><Run Text=" 3 squares."/><LineBreak/><Run Text="- You are X (Crosses), and your friend is O (Noughts)."/><LineBreak/><Run Text="- The first player to get 3 of there marks in a row "/><LineBreak/><Run Text="(up, down, across, or diagonally) is the winner."/><LineBreak/><Run Text="- When all 9 squares are full, the game is over."/></TextBlock>
+
+        <Button x:ConnectionId='3' Content="Speak" Grid.Row="2" 
+                Grid.Column="0"                           
+                Background="#2590FF" BorderBrush="#FFA3EAF5"
+                Foreground="White">
+
+            <Button.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Dark">
+                            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Black"/>
+                            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#58AAFF"/>
+                        </ResourceDictionary>
+                        <ResourceDictionary x:Key="Light">
+                            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Black"/>
+                            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#58AAFF"/>
+                        </ResourceDictionary>
+                    </ResourceDictionary.ThemeDictionaries>
+                </ResourceDictionary>
+            </Button.Resources>
+        </Button>
+
+        <Button x:ConnectionId='4' Content="Back" Grid.Row="2" 
+                Grid.Column="1"                           
+                Background="#2590FF" BorderBrush="#FFA3EAF5"
+                Foreground="White">
+
+            <Button.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Dark">
+                            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Black"/>
+                            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#58AAFF"/>
+                        </ResourceDictionary>
+                        <ResourceDictionary x:Key="Light">
+                            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Black"/>
+                            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#58AAFF"/>
+                        </ResourceDictionary>
+                    </ResourceDictionary.ThemeDictionaries>
+                </ResourceDictionary>
+            </Button.Resources>
+        </Button>
+
         <MediaElement x:ConnectionId='5' Name="media"  Visibility="Collapsed"/>
 
     </Grid>

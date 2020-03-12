@@ -1,6 +1,7 @@
 WinMetadata\Windows.winmd
 Assets\Background.gif
 Assets\Background2.gif
+Assets\Blue Background.gif
 Assets\Class Screenshot.png
 Assets\LockScreenLogo.scale-200.png
 Assets\sea.gif
@@ -9,6 +10,8 @@ Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\TicTacToe Logo 2.png
+Assets\TicTacToe Logo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 Class.xbf

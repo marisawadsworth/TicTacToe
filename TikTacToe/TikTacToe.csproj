@@ -143,8 +143,11 @@
   <ItemGroup>
     <Content Include="Assets\Background.gif" />
     <Content Include="Assets\Background2.gif" />
+    <Content Include="Assets\Blue Background.gif" />
     <Content Include="Assets\Class Screenshot.png" />
     <Content Include="Assets\sea.gif" />
+    <Content Include="Assets\TicTacToe Logo 2.png" />
+    <Content Include="Assets\TicTacToe Logo.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

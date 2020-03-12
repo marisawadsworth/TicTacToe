@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-03-06T02:54:50.246</Modified>
+      <Modified>2020-03-12T22:05:11.273</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\TikTacToe.exe">
       <PackagePath>entrypoint\TikTacToe.exe</PackagePath>
-      <Modified>2020-03-06T02:54:49.453</Modified>
+      <Modified>2020-03-12T22:05:10.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -54,6 +54,10 @@
       <PackagePath>Assets\Background2.gif</PackagePath>
       <Modified>2020-03-06T02:41:28.074</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Blue Background.gif">
+      <PackagePath>Assets\Blue Background.gif</PackagePath>
+      <Modified>2020-03-12T20:30:05.793</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\sea.gif">
       <PackagePath>Assets\sea.gif</PackagePath>
       <Modified>2020-03-06T00:46:57.707</Modified>
@@ -61,6 +65,14 @@
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\Class Screenshot.png">
       <PackagePath>Assets\Class Screenshot.png</PackagePath>
       <Modified>2020-03-06T00:12:11.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\TicTacToe Logo 2.png">
+      <PackagePath>Assets\TicTacToe Logo 2.png</PackagePath>
+      <Modified>2020-03-12T21:57:31.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\TicTacToe Logo.png">
+      <PackagePath>Assets\TicTacToe Logo.png</PackagePath>
+      <Modified>2020-03-12T21:51:21.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -102,27 +114,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\TikTacToe.xr.xml">
       <PackagePath>TikTacToe.xr.xml</PackagePath>
-      <Modified>2020-03-06T02:54:49.279</Modified>
+      <Modified>2020-03-12T22:04:28.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-03-06T02:54:49.305</Modified>
+      <Modified>2020-03-12T22:05:10.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\Class.xbf">
       <PackagePath>Class.xbf</PackagePath>
-      <Modified>2020-03-06T02:54:49.306</Modified>
+      <Modified>2020-03-12T22:05:10.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-03-06T02:54:49.306</Modified>
+      <Modified>2020-03-12T22:05:10.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\Rules.xbf">
       <PackagePath>Rules.xbf</PackagePath>
-      <Modified>2020-03-06T02:54:49.306</Modified>
+      <Modified>2020-03-12T22:05:10.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\StartPage.xbf">
       <PackagePath>StartPage.xbf</PackagePath>
-      <Modified>2020-03-06T02:54:49.307</Modified>
+      <Modified>2020-03-12T22:05:10.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -130,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-03-06T02:54:49.686</Modified>
+      <Modified>2020-03-12T21:57:59.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\10002444\source\repos\TikTacToe\TikTacToe\bin\x86\Debug\Core\TikTacToe.exe">
       <PackagePath>TikTacToe.exe</PackagePath>
-      <Modified>2020-03-06T02:54:50.226</Modified>
+      <Modified>2020-03-12T22:05:11.264</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

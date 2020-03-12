@@ -58,6 +58,5 @@ namespace TikTacToe
         {
             this.Frame.Navigate(typeof(StartPage));
         }
-
     }
 }

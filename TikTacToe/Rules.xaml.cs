@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Media.SpeechSynthesis;
-
+using System.Diagnostics;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -46,12 +46,19 @@ namespace TikTacToe
         /// <param name="message">Our message to talk</param>
         private async void Talk(string message)
         {
-            // Get the text
-            var stream = await reader.SynthesizeTextToStreamAsync(message);
-            // Setup the stream for the player
-            media.SetSource(stream, stream.ContentType);
-            // Play the message
-            media.Play();
+            try
+            {
+                // Get the text
+                var stream = await reader.SynthesizeTextToStreamAsync(message);
+                // Setup the stream for the player
+                media.SetSource(stream, stream.ContentType);
+                // Play the message
+                media.Play();
+            }
+            catch (Exception exc)
+            {
+                Debug.WriteLine("Speech is not working." + exc.Message);
+            }
         }
 
         private void Button_Click_Back(object sender, RoutedEventArgs e)

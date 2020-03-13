@@ -23,8 +23,6 @@
             <Setter Property="HorizontalAlignment" Value="Stretch"/>
             <Setter Property="VerticalAlignment" Value="Stretch"/>
             <Setter Property="Margin" Value="50,20,50,20" />
-            <!--<Setter Property="BorderBrush" Value="Blue" />
-            <Setter Property="Background" Value="Red" />-->
         </Style>
         <Style TargetType="Grid" >
             <Setter Property="BorderBrush" Value="Black"/>
@@ -74,8 +72,6 @@
                 </ResourceDictionary>
             </Button.Resources>
         </Button>
-
-
 
         <Button x:Name="rules" Content="Rules" 
                 Grid.Column="0" Grid.Row="2" 
